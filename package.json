@@ -1,0 +1,26 @@
+{
+  "name": "blended-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "generate": "node src/scripts/generateProducts.js",
+    "getMinPrice": "node src/scripts/getProductsByMinPrice.js",
+    "getTotalPrice": "node src/scripts/getTotalPrice.js",
+    "getCategory": "node src/scripts/getProductsCategory.js",
+    "modifyProducts": "node src/scripts/modifyProducts.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@faker-js/faker": "^9.6.0",
+    "eslint": "^9.24.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
